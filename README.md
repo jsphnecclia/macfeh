@@ -3,6 +3,7 @@
 ![Screenshot](https://raw.githubusercontent.com/DrabWeb/macfeh/master/screenshot.png)
 
 Like feh, but on macOS
+
 Commented out aspect ratio line to play better with tiling wm
 
 
