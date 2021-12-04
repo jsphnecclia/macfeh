@@ -66,7 +66,12 @@ class ImageViewerController: NSViewController, NSWindowDelegate {
                     self.loadingSpinner.isHidden = true;
 
                     self.window!.maxSize = imagePixelSize;
-                    self.window!.contentAspectRatio = imagePixelSize;
+                    
+                    // NOTE
+                    // Commenting the following line makes macfeh
+                    // Play better with yabai
+                    //
+                    //self.window!.contentAspectRatio = imagePixelSize;
 
                     let mainScreenSize: NSSize = NSScreen.main!.frame.size;
 
