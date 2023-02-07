@@ -4,8 +4,8 @@
 
 Like feh, but on macOS
 
-Commented out aspect ratio line to play better with tiling wm
-
+* Commented out aspect ratio line to play better with tiling wm
+* Set up a cute lil' icon
 
 ## Requirements
 macOS 10.11+ (tested on 10.12)
